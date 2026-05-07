@@ -1,1 +1,11 @@
-# maduse25.github.io
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Mi web</title>
+  </head>
+  <body>
+    <h1>Web Marc Durán</h1>
+  </body>
+</html>
