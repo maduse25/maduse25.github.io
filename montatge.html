@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>MaduseFix - Servei de Manteniment Informàtic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="parallax-bg"></div>
+
+  <header>
+    <div class="header-caixa">
+      <div class="logo">
+        <img src="madusefixi.png" alt="MaduseFix">
+      </div>
+
+    <nav>
+  <a href="index.html">Inici</a>
+  <a href="tarifes.html">Tarifes</a>
+  <a href="quisom.html">Qui som</a>
+  <a href="contacte.html">Contacte</a>
+  <a href="montatge.html">Incidència</a>
+</nav>
+      <div class="empresa">
+        <p>Carrer de la Mercé 25, Barcelona</p>
+        <p>NIF: D67345678</p>
+        <p>+34 653 31 47 73</p>
+        <p>madusefix@gmail.com</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="incidencia">
+      <h2>Formulari d'Incidències</h2>
+      <div class="card">
+        <form>
+          <h3>Dades del Client</h3>
+          <label>Nom:</label>
+          <input type="text" required>
+
+          <label>Correu electrònic:</label>
+          <input type="email" required>
+
+          <label>Telèfon:</label>
+          <input type="tel" required>
+          <br><br>
+
+          <h3>Identificació de l'Equip</h3>
+          <label>Marca / Model:</label>
+          <input type="text">
+
+          <label>Sistema Operatiu:</label>
+          <select>
+            <option>Windows</option>
+            <option>Linux</option>
+            <option>macOS</option>
+          </select>
+
+          <label>Tipus d'equip:</label>
+          <select>
+            <option>Sobretaula</option>
+            <option>Portàtil</option>
+            <option>Servidor</option>
+          </select>
+<br><br>
+          <h3>Components afectats</h3>
+          <div class="checkbox-group">
+            <label><input type="checkbox"> Disc dur</label>
+            <label><input type="checkbox"> RAM</label>
+            <label><input type="checkbox"> CPU</label>
+            <label><input type="checkbox"> Placa base</label>
+            <label><input type="checkbox"> Font</label>
+          </div>
+<br><br>
+          <h3>Descripció de l'Avaria</h3>
+          <label>Símptomes:</label>
+          <textarea rows="3"></textarea>
+
+          <label>Urgència</label>
+          <div class="radio-group">
+            <label><input type="radio" name="urgencia"> Baixa</label>
+            <label><input type="radio" name="urgencia"> Mitjana</label>
+            <label><input type="radio" name="urgencia"> Alta</label>
+          </div>
+
+          <button type="submit">Enviar incidència</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>🌐 Twitch | Discord | LinkedIn | X</p>
+    <p><a href="index.html">Política de Privacitat</a> | <a href="index.html">Avís Legal</a></p>
+    <p>© 2026 MaduseFix</p>
+  </footer>
+
+</body>
+</html>
